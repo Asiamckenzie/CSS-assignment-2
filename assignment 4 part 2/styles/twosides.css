@@ -1,5 +1,5 @@
 body {
-    background: #white;
+    background: #FFBD82;
     color: black;
     font-family: Calibri, Arial, sans-serif;
     font-size: 200%;
@@ -14,34 +14,27 @@ header{
     padding: 20px 40px;
 }
 
-#cougar { 
-    background: #B26219;
-    margin: 0 auto;
-    padding: 20px 40px;
-    
-}
-#lion {
-    background: #FFD5AE; 
-    margin: 0 auto;
-    padding: 20px 40px;
- 
-}
-#tiger {
-    background: #FFBD82;
-    margin:0 auto;
-    padding: 20px 40px;
-   
-}
-article {
-    width:600px;
-    background: #fff;
-    margin: 50px auto;
-    font-size: 20px;
-    padding: 20px 40px;
+
+.column {
+    background:#FFBD82; 
+    float: left;
+    width: 40%;
+    padding: 5px;
     -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
              box-sizing: border-box;
+     margin: 1%; 
 }
+
+article {
+    width: 40%;
+    background: #FFBD82;
+    font-size: 18px;
+    float: right;
+    padding: 5px;
+    margin:1%;
+}
+ 
 h2, body > p {
   text-align: center;
  
@@ -50,17 +43,18 @@ img {
    display: block;
    margin: auto;
 }
+
+
 footer {
    text-align: center;
    margin: auto;
    padding: 18px;
    font-size: 10px;
    background:#333;
+   clear: both;
   
 } 
-.clearfix {
- clear: both;
-}
+
 /* ----- suggested colors -----
    B26219 cinnamon
    FFD5AE pale peach 
